@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+.heading {
+  text-shadow: 2px 2px 2px #162472;
+  font-size: larger;
+  padding-left: 275px;
+  font-family: "Aladin";
+  font-size: 22px;
+}
+.main {
+  margin-left: 350px;
+  margin-top: 120px;
+  width: 700px;
+  height: 400px;
+  background-color: rgb(204, 204, 204);
+  box-shadow: 5px 10px 8px 10px #888888;
+  border-radius: 2px;
+}
+.question {
+  padding-left: 40px;
+  margin-top: 70px;
+  font-family: "Josefin Sans";
+  font-size: 25px;
+}
+
+.options {
+  padding-left: 60px;
+}
+input[type="submit"] {
+  border: none;
+  width: 90%;
+  height: 30px;
+  margin-top: 40px;
+  background-color: rgb(24, 24, 82);
+  border-radius: 4px;
+  color: white;
+  font-family: "Aladin";
+  font-size: 15px;
+  margin-left: 40px;
+}
+input[type="radio"] {
+  border: none;
+  margin-top: 7px;
+}
+
+.result {
+  text-align: center;
+  margin-left: 350px;
+  margin-top: 200px;
+  width: 700px;
+  height: 150px;
+  background-color: rgb(204, 204, 204);
+  box-shadow: 5px 10px 8px 10px #888888;
+  border-radius: 2px;
+}
+.scorehead {
+  text-shadow: 2px 2px 2px #162472;
+  font-size: larger;
+  font-family: "Aladin";
+  font-size: 40px;
+}
+.scores {
+  margin-top: 30px;
+  font-family: "Josefin Sans";
+  font-size: 25px;
+}
+body {
+  background-image: url(./images/back1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loading {
+  text-align: center;
+  /* margin-left: 450px;
+margin-top: 200px;
+width: 400px;
+height: 200px; */
+  margin-left: 350px;
+  margin-top: 120px;
+  width: 700px;
+  height: 400px;
+  background-color: rgb(204, 204, 204);
+  box-shadow: 5px 10px 8px 10px #888888;
+  border-radius: 2px;
+}
