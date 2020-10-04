@@ -47,7 +47,7 @@ function App() {
 
   if (!quiz.length) {
     return (
-      <img src={pic4} className="loading" />
+      <img src={pic4} className="loading" alt={pic4} />
     );
   }
   return (
