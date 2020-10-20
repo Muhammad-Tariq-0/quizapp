@@ -1,31 +1,13 @@
-.App {
-  text-align: center;
-}
 .heading {
-  text-shadow: 2px 2px 2px #162472;
-  font-size: larger;
-  padding-left: 275px;
+  text-shadow: 2px 2px 2p darkblue;
   font-family: "Aladin";
-  font-size: 22px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
 }
-.main {
-  margin-left: 350px;
-  margin-top: 120px;
-  width: 700px;
-  height: 400px;
-  background-color: rgb(204, 204, 204);
-  box-shadow: 5px 10px 8px 10px #888888;
-  border-radius: 2px;
-}
-.question {
-  padding-left: 40px;
-  margin-top: 70px;
-  font-family: "Josefin Sans";
-  font-size: 25px;
-}
-
-.options {
-  padding-left: 60px;
+input[type="radio"] {
+  border: none;
+  margin-top: 7px;
 }
 input[type="submit"] {
   border: none;
@@ -39,11 +21,18 @@ input[type="submit"] {
   font-size: 15px;
   margin-left: 40px;
 }
-input[type="radio"] {
-  border: none;
-  margin-top: 7px;
+body{
+  background-color: black;
 }
-
+.question {
+  padding-left: 10px;
+  margin-top: 20px;
+  font-family: "Josefin Sans";
+  font-size: 25px;
+}
+.options {
+  padding-left: 60px;
+}
 .result {
   text-align: center;
   margin-left: 350px;
@@ -65,23 +54,9 @@ input[type="radio"] {
   font-family: "Josefin Sans";
   font-size: 25px;
 }
-body {
-  background-image: url(./images/back1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.loading {
-  text-align: center;
-  /* margin-left: 450px;
-margin-top: 200px;
-width: 400px;
-height: 200px; */
-  margin-left: 350px;
-  margin-top: 120px;
-  width: 700px;
-  height: 400px;
-  background-color: rgb(204, 204, 204);
-  box-shadow: 5px 10px 8px 10px #888888;
-  border-radius: 2px;
+.loading{
+  border-radius: 4px;
+  box-shadow:  3px 7px 5px 7px #888888;
+  background-color: white;
+  margin-top: 70px;
 }

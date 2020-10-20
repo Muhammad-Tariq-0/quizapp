@@ -27,7 +27,7 @@ export const QuestionCard: React.FC<D_O_S> = ({
                   checked={selectedAns === opt}
                   onChange={handleSelection}
                 />
-                {opt}
+                &nbsp;{opt}
               </label>
             </div>
           );
