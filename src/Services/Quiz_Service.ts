@@ -5,7 +5,7 @@ const shuffleArray = (array: any[]) =>
 
 export async function Quiz_Service() {
   const res = await fetch(
-    "https://opentdb.com/api.php?amount=10&difficulty=easy&type=multiple"
+    "https://opentdb.com/api.php?amount=10&category=18&difficulty=medium"
   );
   const { results } = await res.json();
   const quiz = results.map((questionObj: APIData) => {
